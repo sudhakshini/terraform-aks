@@ -11,10 +11,6 @@ terraform {
 provider "azurerm" {
   features {}
   
-subscription_id = ""
-client_id       = ""
-client_secret   = ""
-tenant_id       = ""
 }
 
 resource "azurerm_resource_group" "aks-rg" {
